@@ -1,0 +1,9 @@
+{
+    "API_KEYS": {
+        "NVIDIA_API_KEY": "NVIDIA_API_KEY",
+        "PINECONE_API_KEY": "PINECONE_API_KEY"
+    },
+    "PINECONE_INDEX":"recipes",
+    "LLM_MODEL":"meta/llama3-8b-instruct",
+    "EMBEDDING_MODEL":"all-MiniLM-L6-v2"
+}
