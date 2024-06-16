@@ -2,7 +2,7 @@
 ![Designer (1)](https://github.com/omkarb09/Flavorsaurus/assets/44408619/5782f4e1-64fd-4138-b225-f568940391cd)
 
 ## Introduction
-FlavorSaurus is a cutting-edge AI-powered cooking assistant that suggests food recipes based on your ingredients, allergies, and food preferences. Built using Nvidia NIM endpoints and LangChain, FlavorSaurus is integrated with Pinecone for its vector database and utilizes Gradio for an interactive user interface.
+FlavorSaurus is a cutting-edge AI-powered cooking assistant that suggests food recipes based on your ingredients, allergies, and food preferences. Built using Nvidia NIM endpoints and LangChain, FlavorSaurus is integrated with Pinecone for its vector database and utilizes Gradio for an interactive user interface. Also, FlavorSaurus has a knack of adding dinosaur puns to the suggested recipes giving us some Jurassic humor!
 
 ## Features
 - Ingredient-Based Recipe Suggestions: Enter the ingredients you have, and FlavorSaurus will suggest recipes you can make with them
