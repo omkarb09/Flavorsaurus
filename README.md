@@ -1,4 +1,4 @@
-# FlavourSaurus, a dino-mic cooking AI bot 🦖🍲
+# FlavorSaurus, a dino-mic cooking AI bot 🦖🍲
 ![Designer (1)](https://github.com/omkarb09/Flavorsaurus/assets/44408619/5782f4e1-64fd-4138-b225-f568940391cd)
 
 ## Introduction
