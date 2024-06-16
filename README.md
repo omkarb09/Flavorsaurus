@@ -24,25 +24,16 @@ FlavorSaurus is a cutting-edge AI-powered cooking assistant that suggests food r
 - Gradio
 
 ## Usage
-1. Install Required Libraries:
-- Open code.ipynb in Jupyter Notebook or Jupyter Lab
-- Run all cells under the markdown Installing required libraries to install all required libraries
-2. Import Libraries:
-- Run the cell under the markdown Import statements to import all necessary libraries
-3. Set API Keys and Environment Variables:
-- Run the cell under the markdown Setting the API keys and environment variables to set up API keys and constants from config.json
-4. Define Pinecone Query Functions:
-- Run the cell under the markdown Query functions for the AI agent to define the code for Pinecone query functions
-5. Define the AI Agent:
-- Run the cell under the markdown Code for the AI agent to set up the LangChain runnable and function used to query the LLM
-6. Set Up the Gradio UI:
-- Run the cell under the markdown Code for the Gradio UI to define the Gradio user interface
-7. Launch the UI:
-- Run the next cell to launch the Gradio interface. Note the localhost URL provided in the output
-8. Access the Interface:
-- Open your web browser and navigate to the provided localhost URL to interact with FlavorSaurus
-9. Close the Gradio App:
-- When you're finished, run the subsequent cell to shut down the Gradio application
+1. Have Python 3.8+ installed.
+2. Make sure to have the config.json file in the same directory as the code.ipynb. Also make sure config.json has the working API keys for Nvidia NIM and Pinecone, index name for Pinecone, LLM model name and embedding model name
+3. In code.ipynb, Run all cells under the markdown 'Installing required libraries' to install all required libraries
+4. Run the cell under the markdown 'Import statements' to import all required libraries
+5. Next run the cell under the markdown 'Setting the API keys and environment variables' to set the API keys and constants
+6. Run the cell under the markdown 'Query functions for the AI agent' to define the code for the pinecone query functions
+7. Next run the cell under the markdown 'Code for the AI agent' to define the Langchain runnable and function used to query the LLM
+8. Run the cell under the markdown 'Code for the Gradio UI' to define the code for the gradio ui
+9. Run the next cell to launch the ui. Use the give localhost url on your browser to open the interface.
+10. Run the next cell to close the gradio app.
 
 ## Contact
 For any questions or feedback, please open an issue on the GitHub repository or contact me at omkar.bhatkande@gmail.com
