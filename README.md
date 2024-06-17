@@ -10,6 +10,12 @@ FlavorSaurus is a cutting-edge AI-powered cooking assistant that suggests food r
 - Food Preferences: Indicate your dietary preferences (e.g., vegan, gluten-free) to receive personalized recipe recommendations
 - Interactive UI: Use a simple and intuitive interface powered by Gradio to interact with FlavorSaurus
 
+## Dataset
+FlavorSaurus uses the following Kaggle dataset which has data for more than 13000 recipes:
+https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images?resource=download
+The data is embedded and storeg in Pinecone vector database from where it is fetched according to the user query. You can check recipes.json to see the data
+
+
 ## Technology Stack
 - Nvidia NIM Endpoints: For natural language processing and understanding, FlavorSaurus uses 'meta/llama3-8b-instruct' from Nvidia NIM endpoints
 - LangChain: Facilitates seamless interaction with the language model
