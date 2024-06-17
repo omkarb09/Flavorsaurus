@@ -11,10 +11,9 @@ FlavorSaurus is a cutting-edge AI-powered cooking assistant that suggests food r
 - Interactive UI: Use a simple and intuitive interface powered by Gradio to interact with FlavorSaurus
 
 ## Dataset
-FlavorSaurus uses the following Kaggle dataset which has data for more than 13000 recipes:
+FlavorSaurus uses data for more than 13000 recipes which is embedded and stored in Pinecone vector database from where it is fetched according to the user query. You can check recipes.json to see the data.
+<br>Link to the dataset:
 https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images?resource=download
-The data is embedded and storeg in Pinecone vector database from where it is fetched according to the user query. You can check recipes.json to see the data
-
 
 ## Technology Stack
 - Nvidia NIM Endpoints: For natural language processing and understanding, FlavorSaurus uses 'meta/llama3-8b-instruct' from Nvidia NIM endpoints
@@ -38,8 +37,8 @@ The data is embedded and storeg in Pinecone vector database from where it is fet
 6. Run the cell under the markdown 'Query functions for the AI agent' to define the code for the pinecone query functions
 7. Next run the cell under the markdown 'Code for the AI agent' to define the Langchain runnable and function used to query the LLM
 8. Run the cell under the markdown 'Code for the Gradio UI' to define the code for the gradio ui
-9. Run the next cell to launch the ui. Use the give localhost url on your browser to open the interface.
-10. Run the next cell to close the gradio app.
+9. Run the next cell to launch the ui. Use the give localhost url on your browser to open the interface
+10. Run the next cell to close the gradio app
 
 ## Contact
 For any questions or feedback, please open an issue on the GitHub repository or contact me at omkar.bhatkande@gmail.com
